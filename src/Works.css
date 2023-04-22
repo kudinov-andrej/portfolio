@@ -1,0 +1,14 @@
+.works {
+    margin: 0;
+    margin-left: 14.5%;
+    margin-right: 5.85%;
+    
+}
+
+
+.works__block  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    align-items:center;
+}

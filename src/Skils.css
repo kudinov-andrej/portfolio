@@ -1,0 +1,29 @@
+.skils {
+    margin: 0;
+    margin-left: 14.5%;
+    margin-right: 5.85%;
+    
+}
+
+
+.skils__block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    align-items:center;
+}
+
+ 
+
+.skils__title {
+    margin: 0;
+    margin-bottom: 30px;
+    max-width: 90%;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #21243D;
+    word-wrap: break-word;
+}

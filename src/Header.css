@@ -1,0 +1,41 @@
+.header {
+    margin: 0;
+    margin-left: 14.5%;
+    margin-right: 5.85%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: flex-end;
+    margin-bottom: 140px;
+       
+}
+
+.header__navigation {
+    margin: 0;
+    margin-top: 27px;
+    display: flex;
+    flex-direction: row;
+    gap: 33px;
+    list-style-type: none;
+}
+
+.header__link {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header__link:hover {
+    scale: 1.1;
+}
+
+.header__link::after {
+    color: chartreuse;
+}
