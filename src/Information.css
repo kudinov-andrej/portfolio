@@ -1,6 +1,6 @@
 .information {
     margin: 0;
-    margin-left: 14.5%;
+    margin-left: 5.85%;
     margin-right: 5.85%;
     max-width: 1024px;
     display: flex;
@@ -31,7 +31,7 @@
 @media screen and (max-width: 900px) {
     .information__img  {
         order: -1;
-        margin-left: 0;
+       margin-left: 0;
     }
   }
 

@@ -1,4 +1,6 @@
 .footer {
+    margin-left: 5.85%;
+    margin-right: 5.85%;
     max-width: 100%;
     display: flex;
     flex-direction: column;
