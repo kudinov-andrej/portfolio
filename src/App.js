@@ -4,6 +4,7 @@ import Header from './Header';
 import Information from './Information';
 import Skils from './Skils';
 import Works from './Works'; 
+import Footer from './Footer';
 import './App.css';
 
 function App() {
@@ -19,15 +20,13 @@ function App() {
   ]
 
 
- 
-
-
   return (
     <div className="App">
       <Header/>
       <Information/>
       <Skils cards={cards}/>
       <Works/>
+      <Footer/>
     </div>
   );
 }

@@ -1,9 +1,30 @@
 
-
 .App {
-  max-width: 1480px;
+  margin: 0 auto;
+  max-width: 1024px;
   
 }
+
+@media screen and (max-width: 900px) {
+  .App  {
+    max-width: 900px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .App  {
+    max-width: 600px;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .App  {
+    max-width: 450px;
+  }
+}
+
+
 
 .App-logo *  {
   height: 40vmin;

@@ -1,0 +1,31 @@
+.footer {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__navigation {
+    margin: 0;
+    margin-top: 54px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+}
+
+.footer__link-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 35px;
+    cursor: pointer;
+    scale: 1.05;
+}
+
+.footer__avtor {
+    margin: 0;
+    max-width: 300px;
+    margin-bottom: 30px;
+}

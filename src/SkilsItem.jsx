@@ -4,8 +4,6 @@ import './SkilsItem.css';
 
 function SkilsItem(props) {
 
-    
-
     return (
         <div className='skils__card '>
             <img className='skils__img' src={props.card.link} alt={props.card.name} />
