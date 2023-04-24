@@ -1,7 +1,7 @@
 import React from 'react';
 import './Skils.css';
 import SkilsItem from './SkilsItem';
-import { useEffect, useState } from 'react';
+
 
 
 function Skils({ cards }) {

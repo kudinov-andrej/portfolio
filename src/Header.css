@@ -1,24 +1,17 @@
 .header {
     margin: 0;
+    margin-top: 27px;
     max-width: 100%;
     margin-left: 5.85%;
     margin-right: 5.85%;
+    gap: 33px;
     display: flex;
     flex-direction: row;
-    align-items: end;
+    align-items: flex-end;
     justify-content: flex-end;
-    margin-bottom: 140px;
-       
+      
 }
 
-.header__navigation {
-    margin: 0;
-    margin-top: 27px;
-    display: flex;
-    flex-direction: row;
-    gap: 33px;
-    list-style-type: none;
-}
 
 .header__link {
     font-family: 'Heebo';
@@ -36,6 +29,6 @@
     scale: 1.1;
 }
 
-.header__link::after {
+.header__link_active {
     color: chartreuse;
 }
