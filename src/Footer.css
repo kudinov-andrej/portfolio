@@ -23,7 +23,11 @@
     height: 30px;
     margin-right: 35px;
     cursor: pointer;
-    scale: 1.05;
+
+}
+
+.footer__link-img:hover {
+    scale: 1.1;
 }
 
 .footer__avtor {

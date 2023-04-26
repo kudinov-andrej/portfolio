@@ -15,8 +15,7 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        {/* подстановочный путь */}
-        <Route index path="*" element={<PageHome />} />
+        <Route index path="/" element={<PageHome />} />
         <Route path="/works" element={<PageWorks />} />
       </Routes>
       <Footer />
