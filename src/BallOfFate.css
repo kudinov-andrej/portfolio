@@ -1,0 +1,201 @@
+.fate__container {
+    margin-top: 50px;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./image/фон_небо.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+}
+
+.fate__sphere {
+    height: 40vw;
+    width: 40vw;
+    max-height: 450px;
+    max-width: 450px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(39, 38, 38, 1) 0%, rgba(5, 5, 5, 1) 100%);
+    box-shadow:
+        inset 0px 0px 20px rgba(0, 0, 0, 0.8),
+        20px 20px 40px rgba(0, 0, 0, 0.2),
+        -20px -20px 40px rgba(196, 191, 193, 0.1),
+        20px -20px 40px rgba(255, 255, 255, 0.1),
+        -20px 20px 40px rgba(255, 255, 255, 0.1),
+        20px 20px 40px rgba(255, 255, 255, 0.1);
+    position: relative;
+    transform: rotate(135deg);
+    overflow: hidden;
+}
+
+.fate__triangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./image/1200px-Wikijunior_triangle.svg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40vw;
+    width: 40vw;
+    max-height: 330px;
+    max-width: 330px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+    animation: bounce 12s ease-in-out infinite;
+    filter: drop-shadow(0 0 10px #FFFFFF);
+}
+
+.fate__text-container {
+    display: flex;
+    align-items: center;
+}
+
+.fate__text {
+    margin: 0;
+    padding: 0;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    max-width: 100px;
+    transform: rotate(-120deg);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px white;
+    word-wrap: break-word;
+    width: 150px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .fate__text {
+        font-size: 12px;
+        line-height: 12px;
+        width: 100px;
+        padding-right: 70px;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .fate__text {
+        padding-right: 30px;
+        padding-bottom: 10px;
+
+    }
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .fate__text {
+        font-size: 9px;
+        line-height: 9px;
+        width: 70px;
+    }
+}
+
+.fate__title {
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 490px;
+    text-align: center;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: white;
+    word-wrap: break-word;
+    text-shadow: 4px 4px 4px black;
+}
+
+@media screen and (max-width: 500px) {
+    .fate__title {
+        max-width: 300px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+.fate__button {
+    width: 208px;
+    height: 47px;
+    margin-top: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    align-self: center;
+    justify-self: center;
+    background-color: #ff6b6b;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0));
+    color: #fff;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 68px;
+}
+
+.fate__hidden-text {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    height: 48px;
+    margin-top: 10px;
+    max-width: 490px;
+    text-align: center;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: white;
+    word-wrap: break-word;
+    text-shadow: 4px 4px 4px black;
+}
+
+@media screen and (max-width: 500px) {
+    .fate__hidden-text {
+        max-width: 300px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
+.fate__button-finish {
+    width: 208px;
+    height: 47px;
+    margin-top: 50px;
+    border-radius: 2px;
+    margin-bottom: 68px;
+    cursor: default;
+    background-color: #e4dede;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translate(-70%, -80%) scale(1) rotate(20deg);
+    }
+
+    25% {
+        transform: translate(-40%, -80%) scale(1.3) rotate(-15deg);
+    }
+
+    50% {
+        transform: translate(-30%, -20%) scale(1) rotate(20deg);
+    }
+
+    75% {
+        transform: translate(-20%, -80%) scale(1.2) rotate(-70deg);
+    }
+}

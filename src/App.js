@@ -5,7 +5,7 @@ import Footer from './Footer';
 import './App.css';
 import PageWorks from './PageWorks';
 import PageHome from './PageHome';
-
+import BallOfFate from './BallOfFate.jsx';
 
 
 function App() {
@@ -15,8 +15,9 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route index path="/" element={<PageHome />} />
+        <Route index path="/portfolio" element={<PageHome />} />
         <Route path="/works" element={<PageWorks />} />
+        <Route path="/fate" element={<BallOfFate />} />
       </Routes>
       <Footer />
     </div>
