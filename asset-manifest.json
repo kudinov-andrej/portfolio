@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bcf734b9.css",
-    "main.js": "/portfolio/static/js/main.d754b617.js",
+    "main.css": "/portfolio/static/css/main.6f9c1294.css",
+    "main.js": "/portfolio/static/js/main.b7a14c5b.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/фон_небо.jpg": "/portfolio/static/media/фон_небо.c9bd5070001d45dfd0a8.jpg",
     "static/media/trevel.png": "/portfolio/static/media/trevel.c7e01b9b0bc7fef1bee4.png",
@@ -17,12 +17,12 @@
     "static/media/github.svg": "/portfolio/static/media/github.b8a62b1bbf3ae3ff9026c5ec22121fd3.svg",
     "index.html": "/portfolio/index.html",
     "static/media/vk.svg": "/portfolio/static/media/vk.09006a2033a8b4423c6090f9aecd3246.svg",
-    "main.bcf734b9.css.map": "/portfolio/static/css/main.bcf734b9.css.map",
-    "main.d754b617.js.map": "/portfolio/static/js/main.d754b617.js.map",
+    "main.6f9c1294.css.map": "/portfolio/static/css/main.6f9c1294.css.map",
+    "main.b7a14c5b.js.map": "/portfolio/static/js/main.b7a14c5b.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcf734b9.css",
-    "static/js/main.d754b617.js"
+    "static/css/main.6f9c1294.css",
+    "static/js/main.b7a14c5b.js"
   ]
 }
