@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b8977a59.css",
+    "main.css": "/portfolio/static/css/main.947f3b79.css",
     "main.js": "/portfolio/static/js/main.46d81540.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/фон_небо.jpg": "/portfolio/static/media/фон_небо.c9bd5070001d45dfd0a8.jpg",
@@ -18,12 +18,12 @@
     "static/media/github.svg": "/portfolio/static/media/github.b8a62b1bbf3ae3ff9026c5ec22121fd3.svg",
     "index.html": "/portfolio/index.html",
     "static/media/vk.svg": "/portfolio/static/media/vk.09006a2033a8b4423c6090f9aecd3246.svg",
-    "main.b8977a59.css.map": "/portfolio/static/css/main.b8977a59.css.map",
+    "main.947f3b79.css.map": "/portfolio/static/css/main.947f3b79.css.map",
     "main.46d81540.js.map": "/portfolio/static/js/main.46d81540.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8977a59.css",
+    "static/css/main.947f3b79.css",
     "static/js/main.46d81540.js"
   ]
 }
