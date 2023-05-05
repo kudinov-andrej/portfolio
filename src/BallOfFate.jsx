@@ -73,7 +73,7 @@ function BallOfFate() {
             <div className="fate__sphere">
                 <div className="fate__triangle" style={{ animationPlayState: finish ? 'paused' : 'running' }}>
                     <div className='fate__text-container'>
-                        <p className="fate__text">{fateRandom}</p>
+                        <p className="fate__text" lang="ru">{fateRandom}</p>
                     </div>
                 </div>
             </div>

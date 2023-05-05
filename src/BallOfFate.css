@@ -55,17 +55,16 @@
     left: 55%;
     transform: translate(-50%, -50%);
     transform-origin: center;
+    transform: translateZ(0);
     animation: bounce 12s ease-in-out infinite;
-
 }
 
 @media screen and (max-width: 480px) {
     .fate__triangle {
-        height: 35vw;
-        width: 35vw;
+        height: 40vw;
+        width: 40vw;
     }
 }
-
 
 .fate__text-container {
     display: flex;
@@ -78,43 +77,45 @@
     padding-right: 50px;
     padding-bottom: 50px;
     text-align: center;
-    max-width: 100px;
     transform: rotate(243deg);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 16px;
-    color: rgb(0, 0, 0);
-    text-shadow: 1px 1px 1px rgb(80, 160, 104);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    color: rgb(255, 251, 0);
+    max-width: 200px;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
     word-wrap: break-word;
-    width: 150px;
 }
-
 
 @media screen and (max-width: 900px) {
     .fate__text {
-        width: 100px;
+        max-width: 150px;
         padding-right: 50px;
         padding-bottom: 20px;
+        font-size: 18px;
+        line-height: 18px;
     }
 }
 
 @media screen and (max-width: 670px) {
     .fate__text {
-        padding-bottom: 0;
+        padding-top: 30px;
         padding-right: 20px;
-        font-size: 10px;
-        line-height: 10px;
+        max-width: 110px;
+        font-size: 13px;
+        line-height: 13px;
 
     }
 }
 
-
-
 @media screen and (max-width: 480px) {
     .fate__text {
-        font-size: 10px;
-        line-height: 10px;
-        width: 70px;
+        padding-top: 12px;
+        font-size: 12px;
+        line-height: 12px;
+        max-width: 70px;
     }
 }
 
@@ -162,8 +163,9 @@
 .fate__hidden-text {
     margin: 0;
     padding: 0;
-    min-height: 48px;
+    height: 58px;
     margin-top: 10px;
+    margin-bottom: 5px;
     max-width: 490px;
     text-align: center;
     font-family: 'Heebo';
@@ -184,10 +186,12 @@
     }
 }
 
+
+
 .fate__button-finish {
     width: 208px;
     height: 47px;
-    margin-top: 50px;
+    margin-top: 20px;
     border-radius: 2px;
     margin-bottom: 68px;
     cursor: default;
