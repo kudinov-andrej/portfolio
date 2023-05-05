@@ -27,7 +27,12 @@ function BallOfFate() {
     }
 
     function changeText() {
+        if (caunt > 1) {
+            setVisibleText("Прошу не воспринимать эту игру серьезно. Эта страница создана, чтобы разбавить Ваш день.")
+            setTextButton("Спросить снова")
+        }
         if (caunt > 2) {
+            setVisibleText(" ")
             setTextButton("Стоит ли искушать судьбу?")
         }
         if (caunt > 3) {
@@ -40,8 +45,8 @@ function BallOfFate() {
         if (caunt > 6) {
             setVisibleText("Сегодня магический шар на моей стороне;)")
         }
-        if (caunt > 14) {
-            setVisibleText("")
+        if (caunt > 7) {
+            setVisibleText(" ")
         }
         if (caunt > 14) {
             setVisibleText("Вы великолепны! Немногие дошли до этого текста.")
@@ -66,7 +71,7 @@ function BallOfFate() {
         <section className="fate__container">
             <h2 className='fate__title'>Пригласить Андрея на собеседование?</h2>
             <div className="fate__sphere">
-                <div className="fate__triangle">
+                <div className="fate__triangle" style={{ animationPlayState: finish ? 'paused' : 'running' }}>
                     <div className='fate__text-container'>
                         <p className="fate__text">{fateRandom}</p>
                     </div>
