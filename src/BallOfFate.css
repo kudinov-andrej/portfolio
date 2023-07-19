@@ -9,7 +9,8 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 10%;
+    border-radius: 2%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
 .fate__sphere {

@@ -28,7 +28,7 @@ function BallOfFate() {
 
     function changeText() {
         if (caunt > 1) {
-            setVisibleText("Прошу не воспринимать эту игру серьезно. Эта страница создана, чтобы разбавить Ваш день.")
+            setVisibleText("Прошу не воспринимать эту игру серьезно. Она создана, чтобы разбавить Ваш день.")
             setTextButton("Спросить снова")
         }
         if (caunt > 2) {

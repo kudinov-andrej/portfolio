@@ -1,9 +1,18 @@
-import mestoImg from "./image/mesto.png"
-import todoImg from "./image/ToDO.png"
-import peroImg from "./image/trevel.png"
-import eventImg from "./image/event.png"
-import russianImg from "./image/russian.png"
-import artImg from "./image/art.png"
+import mestoImg from "./image/mesto.png";
+import todoImg from "./image/ToDO.png";
+import peroImg from "./image/trevel.png";
+import eventImg from "./image/event.png";
+import russianImg from "./image/russian.png";
+import artImg from "./image/art.png";
+import diplomImg from "./image/MoviesDiplom.png";
+import css3Img from "./image/css3-plain-wordmark.svg";
+import html5Img from "./image/html5.svg";
+import webpackImg from "./image/webpack-original.svg";
+import nodeImg from "./image/nodejs-original-wordmark.svg";
+import jsImgImg from "./image/javascript-original.svg";
+import figmaImg from "./image/figma-original.svg";
+import reactImg from "./image/react-original.svg";
+import mongoImg from "./image/mongodb-original.svg";
 
 const textFate = [
     { index: 0, text: "Да!" },
@@ -28,4 +37,10 @@ const textFate = [
     { index: 19, text: "Не сомневайтесь, звоните" }
 ]
 
-export { mestoImg, todoImg, peroImg, eventImg, russianImg, artImg, textFate }
+export {
+    mestoImg, todoImg, peroImg,
+    eventImg, russianImg, artImg, diplomImg,
+    textFate, html5Img,
+    figmaImg, jsImgImg, nodeImg,
+    webpackImg, css3Img, reactImg, mongoImg
+}

@@ -2,26 +2,31 @@ import React from 'react';
 import Information from './Information';
 import Skils from './Skils';
 import Works from './Works';
-
+import {
+  html5Img, figmaImg, jsImgImg,
+  nodeImg, webpackImg, css3Img,
+  reactImg, mongoImg
+} from './constant.js';
 
 function PageHome(props) {
 
   const cards = [
-    { id: 1, link: "https://brainshef.ru/storage/app/uploads/public/59d/7dd/a43/59d7dda437ce2133646520.jpg", name: "JS", discription: "здесь будет описание" },
-    { id: 2, link: "https://www.digiseller.ru/preview/1027191/p1_3233025_95c6777e.jpeg", name: "React", discription: "здесь будет описание" },
-    { id: 3, link: "https://img3.goodfon.ru/original/2048x1200/0/e7/html5-html-hyper-text-markup.jpg", name: "HTML5", discription: "здесь будет описание" },
-    { id: 4, link: "https://luxe-host.ru/wp-content/uploads/d/6/5/d65a08a6beac3d9a1d7a5cfa15513fa5.png", name: "CSS3", discription: "здесь будет описание" },
-    { id: 5, link: "https://www.solucionex.com/sites/default/files/posts/imagen/git.jpg", name: "GIT", discription: "здесь будет описание" },
-    { id: 6, link: "https://www.digiseller.ru/preview/1027191/p1_3233028_95179117.png", name: "Figma", discription: "здесь будет описание" },
-
+    { id: 1, link: jsImgImg, name: "JS", discription: "здесь будет описание" },
+    { id: 2, link: nodeImg, name: "Node", discription: "здесь будет описание" },
+    { id: 3, link: html5Img, name: "HTML5", discription: "здесь будет описание" },
+    { id: 4, link: figmaImg, name: "Figma", discription: "здесь будет описание" },
+    { id: 5, link: webpackImg, name: "Webpack", discription: "здесь будет описание" },
+    { id: 6, link: css3Img, name: "CSS 3", discription: "здесь будет описание" },
+    { id: 7, link: reactImg, name: "React", discription: "здесь будет описание" },
+    { id: 7, link: mongoImg, name: "MongoDB", discription: "здесь будет описание" },
   ]
 
   return (
     <>
       <Information />
       <Skils cards={cards} />
-      <Works  />
-      </>
+      <Works />
+    </>
   );
 }
 

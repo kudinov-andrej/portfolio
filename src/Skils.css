@@ -3,18 +3,23 @@
     max-width: 1024px;
     margin-left: 5.85%;
     margin-right: 5.85%;
-    
+
 }
 
 
-.skils__block  {
+.skils__block {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 15px;
-    align-items:center;
+    align-items: center;
 }
 
-
+@media screen and (max-width: 660px) {
+    .skils__block {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 8px;
+    }
+}
 
 
 .skils__title {
@@ -29,5 +34,3 @@
     color: #21243D;
     word-wrap: break-word;
 }
-
-
