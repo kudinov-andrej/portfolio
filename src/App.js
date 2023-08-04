@@ -5,8 +5,6 @@ import Footer from './Footer';
 import './App.css';
 import PageWorks from './PageWorks';
 import PageHome from './PageHome';
-import BallOfFate from './BallOfFate.jsx';
-
 
 function App() {
 
@@ -17,7 +15,6 @@ function App() {
       <Routes>
         <Route index path="/" element={<PageHome />} />
         <Route path="/works" element={<PageWorks />} />
-        <Route path="/fate" element={<BallOfFate />} />
       </Routes>
       <Footer />
     </div>
@@ -25,3 +22,4 @@ function App() {
 }
 
 export default App;
+

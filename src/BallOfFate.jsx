@@ -3,6 +3,8 @@ import './BallOfFate.css';
 import { useState } from 'react';
 import { textFate } from './constant.js';
 
+// страница отключена от проекта
+
 function BallOfFate() {
     const [fateRandom, setFateRandom] = useState("Спросите...");
     const [textButton, setTextButton] = useState("Узнать...");
