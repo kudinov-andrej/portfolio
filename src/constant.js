@@ -13,6 +13,7 @@ import jsImgImg from "./image/javascript-original.svg";
 import figmaImg from "./image/figma-original.svg";
 import reactImg from "./image/react-original.svg";
 import mongoImg from "./image/mongodb-original.svg";
+import language from "./image/language.png";
 
 const textFate = [
     { index: 0, text: "Да!" },
@@ -42,5 +43,5 @@ export {
     eventImg, russianImg, artImg, diplomImg,
     textFate, html5Img,
     figmaImg, jsImgImg, nodeImg,
-    webpackImg, css3Img, reactImg, mongoImg
+    webpackImg, css3Img, reactImg, mongoImg, language
 }
